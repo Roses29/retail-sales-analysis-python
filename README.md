@@ -1,3 +1,5 @@
+🌍 Language: [English](README.md) | [Français](README_FR.md)
+
 # Retail Store Sales Analysis (Python Project)
 
 ## Project Overview
