@@ -1,4 +1,4 @@
-🌍 Langue : [Français](README_FR.md) | [English](README.md)
+🌍 Langue : [Français](README_FR.md) | [Anglais](README.md)
 
 # Analyse des ventes d’un magasin (Projet Python)
 
