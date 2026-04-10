@@ -1,54 +1,70 @@
-# E-commerce Data Analysis (SQL Project)
+# Retail Store Sales Analysis (Python Project)
 
-## 📌 Project Overview
-This project is an end-to-end e-commerce data analysis built entirely in SQL. It covers data generation, database modeling, analytical queries, and business recommendations.
+## Project Overview
+This project focuses on analyzing a retail store sales dataset using Python. The dataset comes from Kaggle and is intentionally "dirty", containing missing and inconsistent values to simulate real-world data challenges.
 
-The dataset was fully generated from scratch to simulate a realistic e-commerce environment, allowing full control over the structure and logic.
+The project covers the full data analysis workflow:
+- Data loading
+- Data exploration
+- Data cleaning
+- Exploratory Data Analysis (EDA)
+- Insights generation
+
+## 📂 Dataset Description
+The dataset represents transactional sales data from a retail store, including:
+
+- Transaction ID
+- Customer ID
+- Category
+- Item
+- Price per Unit
+- Quantity
+- Total Spent
+- Payment Method
+- Location (Online / In-store)
+
+It contains:
+- 8 product categories
+- 25 items per category
+- Multiple customers and transactions
+- Missing and inconsistent values
 
 ## 🎯 Objectives
-The project aims to:
+The main goals of this project are:
 
-- Measure business performance (revenue, trends)
-- Identify high-value customers and countries
-- Detect top-performing and underperforming products
-- Support data-driven marketing decisions
+- Clean a messy real-world dataset
+- Understand customer purchasing behavior
+- Analyze sales performance across categories
+- Identify trends and patterns in transactions
+- Practice end-to-end data analysis in Python
 
-## 🧱 Data Model
-The database follows a **star schema** with four main tables:
+## 🧹 Data Cleaning
+Several data quality issues were addressed:
 
-- `customers`
-- `orders`
-- `order_items`
-- `products`
+- Handling missing values in key columns (Price, Quantity, Total Spent)
+- Ensuring consistency between related variables
+- Removing or handling duplicates
+- Validating calculated fields (e.g., Total Spent = Price × Quantity)
 
-This structure ensures efficient querying and scalability.
+## 🔍 Exploratory Data Analysis (EDA)
+The analysis includes:
 
-## 📊 Key Analyses
-Some of the key questions explored:
+- Dataset structure exploration (shape, types, unique values)
+- Customer and product analysis
+- Category-level performance
+- Payment method distribution
+- Online vs in-store behavior
 
-- Which months consistently generate the highest revenue?
-- Who are the most valuable customers?
-- Which countries contribute the most to sales?
-- What are the best and worst performing products?
-
-Example approach:
-> For each month, average revenue is calculated and compared to the global average to highlight true seasonal patterns independent of yearly growth.
-
-## 🛠️ Technologies Used
-- SQL (data generation, modeling, analysis)
-- Relational database concepts (joins, aggregations, grouping)
+## 📊 Tools & Technologies
+- Python
+- Pandas (data manipulation)
+- Matplotlib & Seaborn (visualization)
+- Google Colab
 
 ## 💡 Key Insights
-- Seasonal trends identified across months
-- High-value customer segments detected
-- Product performance variations highlighted
-- Actionable recommendations for marketing strategy
-
-## 🚀 Future Improvements
-- Add visualization layer (Power BI / Tableau)
-- Integrate Python for advanced analytics
-- Expand dataset with more realistic constraints
-
----
+- Identification of the number of unique customers and products
+- Clear distinction between online and in-store transactions
+- Detection of missing values patterns in key financial variables
+- Understanding of category distribution and customer behavior
 
 👤 Author: Robin Rubangura
