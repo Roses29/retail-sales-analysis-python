@@ -1,4 +1,4 @@
-🌍 [Read in English](README.md)
+🌍 [Read in English](README.md) | 📓 Consulter le projet : [Ouvrir Notebook](./Python_Project_Rubangura_Robin.ipynb)
 
 # Analyse des ventes d’un magasin (Projet Python)
 
