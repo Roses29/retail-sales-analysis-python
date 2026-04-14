@@ -1,6 +1,8 @@
 🌍 [Lire en Français](README_FR.md)
 
-# Retail Store Sales Analysis (Python Project)
+View full project in the notebook: [Open Notebook](./Python_Project_Rubangura_Robin.ipynb)
+
+# Retail Store Sales Analysis (Python Project) 
 
 ## Project Overview
 This project focuses on analyzing a retail store sales dataset using Python. The dataset comes from Kaggle and is intentionally "dirty", containing missing and inconsistent values to simulate real-world data challenges.
@@ -68,5 +70,6 @@ The analysis includes:
 - Clear distinction between online and in-store transactions
 - Detection of missing values patterns in key financial variables
 - Understanding of category distribution and customer behavior
+
 
 👤 Author: Robin Rubangura
