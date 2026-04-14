@@ -1,6 +1,4 @@
-🌍 [Lire en Français](README_FR.md)
-
-View full project in the notebook: [Open Notebook](./Python_Project_Rubangura_Robin.ipynb)
+🌍 [Lire en Français](README_FR.md) | View full project in the notebook: [Open Notebook](./Python_Project_Rubangura_Robin.ipynb)
 
 # Retail Store Sales Analysis (Python Project) 
 
